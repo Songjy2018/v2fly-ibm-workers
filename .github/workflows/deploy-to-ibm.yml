@@ -1,11 +1,11 @@
 name: Deploy to IBM Cloud
 
-on:
-  push:
-    branches:
-    - master
-  schedule:
-    - cron: "0 4 */3 * *"
+# on:
+#   push:
+#     branches:
+#     - master
+#   schedule:
+#     - cron: "0 4 */3 * *"
 
 jobs:
   deploy: 
